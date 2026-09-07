@@ -64,15 +64,7 @@ $nombreUsuario = trim(($_SESSION['nombre'] ?? 'Usuario') . ' ' . ($_SESSION['ape
                             <span>Pedidos</span>
                         </a>
                     </li>
-                <?php endif; ?>
-
-                <?php if ($esAdministrador): ?>
-                    <li>
-                        <a href="reportes">
-                            <i class="material-icons">insert_chart</i>
-                            <span>Reportes</span>
-                        </a>
-                    </li>
+                
                     <li>
                         <a href="configuracion">
                             <i class="material-icons">settings</i>
